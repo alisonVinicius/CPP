@@ -1,3 +1,8 @@
+/****************************** 						   
+ * Author : Alison Vinicius
+ * File:   main.cpp
+*******************************/
+
 #include "Jogo.h"
 
 
