@@ -59,5 +59,5 @@ void Jogo::exibir()
 	cout << "Preco: R$" << preco << endl;
 	cout << "Horas:   " << horas << endl;
 	cout << "Custo: R$" << custo << endl;
-
+	cout << endl;
 }

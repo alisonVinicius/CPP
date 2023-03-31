@@ -1,10 +1,13 @@
-/****************************** 						   
+/************************************************************** 						   
  * Author : Alison Vinicius
  * File:   main.cpp
-*******************************/
+ * 
+ * Este projeto foi desenvolvido para a aprendizagem de C++
+ * e também para a Programação Orientada a Objetos.
+***************************************************************/
 
-#include "Jogo.h"
-
+#include "Jogo.h"	
+#include "Coord.h"
 
 
 using namespace std;
@@ -13,29 +16,14 @@ using namespace std;
 
 int main()
 {	
-	// Declaração de um objeto do tipo Jogo.
-	Jogo gow;
-
-	// Invoca o método adquirir do objeto gow.
-	gow.adquirir("God of War", 100.50);
-
-	// Invoca o método exibir do objeto gow.
-	gow.exibir();
-
-	// Invoca o método jogar.
-	gow.jogar(5);
-
-	// Invoca o método exibir do objeto gow.
-	gow.exibir();
-
-	// Invoca o método atualizar.
-	gow.atualizar(120.00);
-
-	// Invoca o método exibir do objeto gow.
-	gow.exibir();
+	
+	// É instanciado um objeto, do tipo Coord, chamado ponto.
+	// O objeto ponto é criado na memória e o construtor realiza
+	// o processo de inicialização do objeto.
+	Coord ponto(10, 15);
 
 
-
+	
 
 	return 0; 
 }
